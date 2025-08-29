@@ -1,7 +1,8 @@
 const Cartoperation = require("../../Models/web/Cartoperationmodel")
 
 let cartoperationinsert= async(req,res)=>{
-    let{mode,status1,orders}=req.body
+    let{mode,status1,orders,username,mobilenumber,address,locality,gstnumber,paymentmode,paymentsettlement
+    }=req.body
     
      
 let ss= new Cartoperation({

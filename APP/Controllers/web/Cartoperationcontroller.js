@@ -5,7 +5,7 @@ let cartoperationinsert= async(req,res)=>{
     
      
 let ss= new Cartoperation({
-    mode,status1,orders
+    mode,status1,orders,username,mobilenumber,address,locality,gstnumber,paymentmode,paymentsettlement
     })
     await ss.save().then(()=>{
       //console.log('this is in add data')
